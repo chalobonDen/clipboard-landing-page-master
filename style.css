@@ -4,6 +4,57 @@
   box-sizing: border-box;
   font-family: 'Bai Jamjuree', sans-serif;
 }
+header {
+  background-image: url('./images/bg-header-desktop.png');
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.company-logo {
+  padding-top: 9rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.head-detail {
+  text-align: center;
+  width: 550px;
+  margin: 3rem auto 2rem;
+}
+.heading {
+  margin-bottom: 1rem;
+}
+h1 {
+  font-size: 35px;
+}
+h1,
+h2,
+h3 {
+  color: hsl(210, 10%, 33%);
+}
+p {
+  font-size: 18px;
+  color: hsl(201, 11%, 66%);
+}
+.btn-head {
+  display: flex;
+  justify-content: center;
+}
+.btn-head > button {
+  margin: 0 0.5rem;
+  color: #fff;
+  border: none;
+  padding: 0.8rem 1.8rem;
+  border-radius: 25px;
+}
+.ios-btn {
+  background: hsl(171, 66%, 44%);
+  box-shadow: hsl(171, 100%, 79%) 0px 10px 15px -10px;
+}
+.mac-btn {
+  background: hsl(233, 100%, 69%);
+  box-shadow: rgba(182, 182, 182, 0.15) 0px 20px 15px -10px;
+}
 .attribution {
   font-size: 11px;
   text-align: center;

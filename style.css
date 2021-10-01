@@ -18,7 +18,7 @@ header {
 }
 .head-detail {
   text-align: center;
-  width: 550px;
+  width: 600px;
   margin: 3rem auto 2rem;
 }
 .heading {
@@ -31,6 +31,7 @@ h1,
 h2,
 h3 {
   color: hsl(210, 10%, 33%);
+  font-weight: 600;
 }
 p {
   font-size: 18px;
@@ -46,6 +47,7 @@ p {
   border: none;
   padding: 0.8rem 1.8rem;
   border-radius: 25px;
+  cursor: pointer;
 }
 .ios-btn {
   background: hsl(171, 66%, 44%);
@@ -55,9 +57,109 @@ p {
   background: hsl(233, 100%, 69%);
   box-shadow: rgba(182, 182, 182, 0.15) 0px 20px 15px -10px;
 }
+h2 {
+  font-size: 26px;
+}
+.detail {
+  text-align: center;
+  width: 600px;
+  margin: 5rem auto 2rem;
+}
+.detail > h2 {
+  margin-bottom: 1rem;
+}
+.content-1 {
+  display: flex;
+}
+.content-1 > section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  margin-left: 5rem;
+  width: 400px;
+}
+.content-1 > section > p {
+  margin-bottom: 3rem;
+}
+.content-1 > img {
+  margin-top: 4rem;
+}
+.content-3 {
+  width: 100vw;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.content-3 > img {
+  margin-top: 4rem;
+}
+.content-3 > .detail {
+  margin-top: 2rem;
+}
+.menu {
+  display: flex;
+  margin: 1rem auto;
+}
+.menu > div {
+  width: 400px;
+  text-align: center;
+  margin-right: 10px;
+}
+.menu img {
+  margin: 1rem 0;
+  height: 32px;
+}
+.menu > div > h3 {
+  font-size: 23px;
+  margin: 1rem 0;
+}
+.brand-connect {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-evenly;
+
+  margin: 7rem auto;
+}
+
+.about {
+  width: 100vw;
+  margin-top: 7rem;
+  background: #f5f6f8;
+  height: 6rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.about > img {
+  width: 54px;
+  height: 54px;
+}
+.social img {
+  width: 1rem;
+  height: 1rem;
+  margin-left: 5px;
+}
+.about-company {
+  display: flex;
+  margin-left: -7rem;
+}
+.about-company > .col {
+  margin-right: 6rem;
+}
+.about-company p {
+  color: hsl(210, 10%, 33%);
+  font-size: 16px;
+  cursor: pointer;
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;
+  background: #f5f6f8;
 }
 .attribution a {
   color: hsl(228, 45%, 44%);

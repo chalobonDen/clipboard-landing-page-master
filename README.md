@@ -1,6 +1,6 @@
 # Frontend Mentor - Clipboard landing page
 
-[Live Demo](https://confident-feynman-47a36d.netlify.app/)
+[Preview Site](https://confident-feynman-47a36d.netlify.app/)
 
 ![Design preview for the Clipboard landing page coding challenge](./design/desktop-preview.jpg)
 
